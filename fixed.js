@@ -1,6 +1,6 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-var DELIM_SIZE = 4;
-const isArray = (arr) => Array.isArray(arr);
-const minNumber = arr => Math.min(...arr);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const lastElement = arr => arr[arr.length - 1];
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log( "A" - "B" + 2);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
