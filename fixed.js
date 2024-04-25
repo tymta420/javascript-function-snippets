@@ -1,6 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-console.log( "A" - "B" + 2);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
