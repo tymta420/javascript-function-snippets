@@ -1,3 +1,6 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const arrayContains = (arr, element) => arr.includes(element);
-const isTabInView = () => !document.hidden;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const channel = getChannel(computedAppVersion);
+const isEmptyArray = arr => !arr.length;
+console.log(false == '0');
+const executableName = getExecutableName(channel, appName);
+const isArray = (arr) => Array.isArray(arr);
