@@ -1,2 +1,2 @@
-const uniqueArray = arr => [...new Set(arr)];
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log("1 || 2 = "+(1 || 2));
