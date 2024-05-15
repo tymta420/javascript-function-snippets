@@ -1,2 +1,3 @@
-[foo, bar] = [bar, foo];
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const executableName = getExecutableName(channel, appName);
+console.log(1 +  -"1" + "2");
+const merge = (a, b) => a.concat(b);
