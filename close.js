@@ -1,3 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const merge = Object.assign({}, obj1, obj2);
+var c = new Counter(); c.add(); c.add(); c.add();
