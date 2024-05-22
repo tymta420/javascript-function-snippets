@@ -1,3 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const merge = Object.assign({}, obj1, obj2);
-var c = new Counter(); c.add(); c.add(); c.add();
+const stringReverse = str => str.split("").reverse().join("");
+const uniqueArr = (arr) => [...new Set(arr)];
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
