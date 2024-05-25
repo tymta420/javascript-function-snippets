@@ -1,1 +1,1 @@
-console.log(+"1" +  "1" + "2");
+const removeDuplicates = (arr) => [...new Set(arr)];
