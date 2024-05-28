@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const uniqueArr = (arr) => [...new Set(arr)];
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const isEven = (num) => num % 2 === 0;
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
