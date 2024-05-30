@@ -1,3 +1,3 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const isEven = (num) => num % 2 === 0;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const flattenedArray = arr => [].concat(...arr);
+const removeDuplicates = (arr) => [...new Set(arr)];
+[foo, bar] = [bar, foo];
