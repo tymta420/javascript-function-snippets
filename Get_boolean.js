@@ -1,2 +1,2 @@
-var pattern = {};
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
