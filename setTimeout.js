@@ -1,1 +1,1 @@
-const reversedString = str => str.split('').reverse().join('');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
