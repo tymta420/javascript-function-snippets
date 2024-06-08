@@ -1,2 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const goToTop = () => window.scrollTo(0, 0);
