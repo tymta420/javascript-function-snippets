@@ -1,3 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
-const removeDuplicates = (arr) => [...new Set(arr)];
-[foo, bar] = [bar, foo];
+console.log(+"1" +  "1" + "2");
