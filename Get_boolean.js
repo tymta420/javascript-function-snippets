@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const arrayContains = (arr, element) => arr.includes(element);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const results = await Promise.all(resultingPromises);
