@@ -1,2 +1,2 @@
-const isEven = (num) => num % 2 === 0;
-var pattern = {};
+const minNumber = arr => Math.min(...arr);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
