@@ -1,3 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
