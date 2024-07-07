@@ -1,1 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
+console.log("0 && 1 = "+(0 && 1));
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
