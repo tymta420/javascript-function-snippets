@@ -1,3 +1,2 @@
-const merge = [...new Set([...a, ...b])];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
 const scriptRootPath = path.join(repositoryRootPath, 'script');
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
