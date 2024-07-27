@@ -1,3 +1,2 @@
-var DELIM_SIZE = 4;
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+var arr1 = "john".split('');
