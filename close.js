@@ -1,1 +1,1 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log(+"1" +  "1" + "2");
