@@ -1,2 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const channelName = getChannelName(channel);
