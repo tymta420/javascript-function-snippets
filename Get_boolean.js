@@ -1,2 +1,1 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const channelName = getChannelName(channel);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
