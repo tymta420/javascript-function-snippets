@@ -1,2 +1,2 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const merge = Object.assign({}, obj1, obj2);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const buildOutputPath = path.join(repositoryRootPath, 'out');
