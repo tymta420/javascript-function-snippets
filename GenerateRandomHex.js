@@ -1,3 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-console.log(1 +  "2" + "2");
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const result = await makeHttpRequest(url);
+const stringReverse = str => str.split("").reverse().join("");
