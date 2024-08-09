@@ -1,3 +1,2 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-console.log(false === '0');
-console.log(false == '0');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
